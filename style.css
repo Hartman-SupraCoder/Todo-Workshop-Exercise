@@ -1,1 +1,49 @@
-
+h1 {
+    color: white;
+    background-color: purple;
+    text-align: center;
+  }
+  
+  input {
+    align-items: center;
+    font-size: x-large;
+    flex-grow: 1;
+  }
+  
+  button {
+    font-size: large;
+    width: 12%;
+    text-align: center;
+  }
+  
+  #title {
+    background-color: plum;
+    justify-content: center;
+    margin-bottom: 1%;
+  }
+  
+  #input {
+    display: flex;
+    justify-content: center;
+    padding: .5%;
+  }
+  
+  #list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 1%;
+  }
+  
+  
+  .item {
+    display: flex;
+    width: auto;
+    outline-color: white;
+    outline-style: groove;
+  
+    margin: 0.5%;
+    padding: 0.5%;
+    justify-content: center;
+  }
+  
